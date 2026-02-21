@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <!-- bootstrap@5.3.8 -->
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="Css/payment.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+<body>
+  
+  <!-- Navigation Bar -->
+<header class="navbar">
+  <div class="logo">
+    <a href="Home.html">
+    <img src="Images/Logo.jpg" alt="Next Step Logo">
+    </a>
+  </div>
+  <ul class="nav-links">
+    <li><a href="Home.html">Home</a></li>
+    <li><a href="Aboutus.html">About Us</a></li>
+    <li><a href="Contact.html">Contact Us</a></li>
+  </ul>
+  <a href="Login.html" class="sign-in-btn">Sign In</a> 
+</header>
+
+<section class="contact-section ">
+<div class="container-1">
+<div class="full-page">
+
+  <!-- الشمال: صورة وجملة -->
+  <div class="left-panel ">
+    <div class="photo-container">
+      <img src="Images/Logo.jpg" alt="Logo">
+    </div>
+    <h1>Secure Payment</h1>
+    <p>Pay safely through various payment methods</p>
+  </div>
+
+  <!-- اليمين: كارت الدفع    -->
+  <div class="right-panel">
+
+    <div class="payment-card">
+
+      <div class="payment-header">
+        <h1> Complete Payment</h1>
+        <p> Choose How You Would Like To Pay   </p>
+      </div>
+
+      <div class="methods">
+
+        <div class="method" data-method="wallet">
+          <span>Cash Wallet</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 48 48"><g fill="none" stroke-width="3"><path fill="#8fbffa" d="M3.419 39.945c.208 2.551 2.189 4.47 4.742 4.647C11.1 44.796 15.637 45 22 45s10.9-.204 13.839-.408c2.553-.176 4.534-2.096 4.742-4.647C40.796 37.31 41 33.387 41 28s-.204-9.31-.419-11.945c-.208-2.551-2.189-4.47-4.742-4.647C32.899 11.204 28.363 11 22 11s-10.9.204-13.84.408c-2.552.176-4.533 2.096-4.741 4.647C3.204 18.689 3 22.613 3 28s.204 9.31.419 11.945"/><path fill="#fff" d="M7.16 11.572c5.985-3.122 13.63-6.005 20.758-7.76c2.073-.51 4.215.258 5.293 2.1c.773 1.32 1.717 3.132 2.714 5.502l-.086-.006c-2.94-.204-7.476-.408-13.84-.408c-6.362 0-10.899.204-13.838.408a5.4 5.4 0 0 0-1 .164Zm21.904 19.551c.095 2.13 1.737 3.717 3.866 3.802c1.085.044 2.434.075 4.07.075s2.985-.031 4.07-.075c2.13-.085 3.771-1.672 3.866-3.802c.038-.867.064-1.904.064-3.123s-.026-2.256-.064-3.123c-.095-2.13-1.737-3.717-3.866-3.802A102 102 0 0 0 37 21c-1.636 0-2.985.031-4.07.075c-2.13.085-3.771 1.672-3.866 3.802A71 71 0 0 0 29 28c0 1.22.026 2.256.064 3.123"/><path stroke="#2859c5" stroke-linecap="round" stroke-linejoin="round" d="M7.269 11.515c5.969-3.1 13.564-5.96 20.65-7.703c2.073-.51 4.215.257 5.293 2.099c.77 1.316 1.71 3.12 2.704 5.478m-6.852 19.734c.095 2.13 1.737 3.717 3.866 3.802c1.085.044 2.434.075 4.07.075s2.985-.031 4.07-.075c2.13-.085 3.771-1.672 3.866-3.802c.038-.867.064-1.904.064-3.123s-.026-2.256-.064-3.123c-.095-2.13-1.737-3.717-3.866-3.802A102 102 0 0 0 37 21c-1.636 0-2.985.031-4.07.075c-2.13.085-3.771 1.672-3.866 3.802A71 71 0 0 0 29 28c0 1.22.026 2.256.064 3.123"/><path stroke="#2859c5" stroke-linecap="round" stroke-linejoin="round" d="M40.874 21.067a119 119 0 0 0-.293-5.012c-.208-2.551-2.189-4.47-4.742-4.647C32.899 11.204 28.363 11 22 11s-10.9.204-13.84.408c-2.552.176-4.533 2.096-4.741 4.647C3.204 18.689 3 22.613 3 28s.204 9.31.419 11.945c.208 2.551 2.189 4.47 4.742 4.647C11.1 44.796 15.637 45 22 45s10.9-.204 13.839-.408c2.553-.176 4.534-2.096 4.742-4.647c.109-1.333.215-2.996.293-5.012M36 27v2"/></g></svg>
+        
+        </div>
+
+        <div class="method" data-method="insta">
+          <span>InstaPay</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 48 48"><path fill="none" stroke="#150a88" stroke-linecap="round" stroke-linejoin="round" d="m21.36 15.869l4.546 7.887l-9.278 8.322m-1.874-16.21l4.547 7.888l-9.278 8.322m21.099-14.913h8.13c2.81 0 4.669 1.96 4.166 4.397c-.504 2.436-3.173 4.397-5.984 4.397h-9.762l-1.896 6.173M9.383 16.016l-.936 3.087m-.995 3.287L4.5 32.132" stroke-width="1"/></svg>
+
+         
+        </div>
+
+        <div class="method" data-method="card">
+                   <span>Visa</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 256 83"><defs><linearGradient id="SVGccLCcevV" x1="45.974%" x2="54.877%" y1="-2.006%" y2="100%"><stop offset="0%" stop-color="#222357"/><stop offset="100%" stop-color="#254aa5"/></linearGradient></defs><path fill="url(#SVGccLCcevV)" d="M132.397 56.24c-.146-11.516 10.263-17.942 18.104-21.763c8.056-3.92 10.762-6.434 10.73-9.94c-.06-5.365-6.426-7.733-12.383-7.825c-10.393-.161-16.436 2.806-21.24 5.05l-3.744-17.519c4.82-2.221 13.745-4.158 23-4.243c21.725 0 35.938 10.724 36.015 27.351c.085 21.102-29.188 22.27-28.988 31.702c.069 2.86 2.798 5.912 8.778 6.688c2.96.392 11.131.692 20.395-3.574l3.636 16.95c-4.982 1.814-11.385 3.551-19.357 3.551c-20.448 0-34.83-10.87-34.946-26.428m89.241 24.968c-3.967 0-7.31-2.314-8.802-5.865L181.803 1.245h21.709l4.32 11.939h26.528l2.506-11.939H256l-16.697 79.963zm3.037-21.601l6.265-30.027h-17.158zm-118.599 21.6L88.964 1.246h20.687l17.104 79.963zm-30.603 0L53.941 26.782l-8.71 46.277c-1.022 5.166-5.058 8.149-9.54 8.149H.493L0 78.886c7.226-1.568 15.436-4.097 20.41-6.803c3.044-1.653 3.912-3.098 4.912-7.026L41.819 1.245H63.68l33.516 79.963z" transform="matrix(1 0 0 -1 0 82.668)"/></svg>
+         
+        </div>
+
+      </div>
+
+      <input type="number" class="form-control amount-input" placeholder=" Enter the Amount in EGP">
+
+      <form>
+
+        <div id="walletBox" class="hidden">
+          <select class="form-select mb-2">
+            <option>Vodafone Cash</option>
+            <option>Orange Cash</option>
+            <option>Etisalat Cash</option>
+          </select>
+          <input type="tel" class="form-control" placeholder=" Phone Number">
+        </div>
+
+        <div id="instaBox" class="hidden">
+          <input type="text" class="form-control" placeholder=" InstaPay Number">
+        </div>
+
+        <div id="cardBox" class="hidden">
+          <input type="text" class="form-control mb-2" placeholder="  Name On Card">
+          <input type="text" class="form-control mb-2" placeholder=" Card Number">
+          <div class="row g-2">
+            <div class="col"><input type="text" class="form-control" placeholder="MM/YY"></div>
+            <div class="col"><input type="text" class="form-control" placeholder="CVV"></div>
+          </div>
+        </div>
+
+        <button  id="payBtn" type="button" class="pay-btn " onclick="goBack()">Pay Now </button>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</div>
+
+</div>
+</section>
+  
+
+<script src="Js/payment.js"></script>
+
+</body>
+</html>
